@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage ('working with variables) {
+    stage ('working with variables') {
       steps {
         script {
-        var1=50
+        var1 = 50
           println "Hi my var1 value is ${var1}"
         }
       }
