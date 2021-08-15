@@ -8,8 +8,8 @@ pipeline {
     stage ('my first stage') {
       steps {
         script {
-          print "My subject is ${env.subject}"
-          print "My batchno is ${env.batchno}"
+          print "my subject is ${env.subject}"
+          print "my batchno is ${env.batchno}"
         }
       }
     }
