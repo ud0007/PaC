@@ -1,12 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage ('my first stage') {
+    stage ('working with variables) {
       steps {
         script {
-          print "Hi Team welcome to Jenkins Grooy scripting"
+        var1=30
+          println "Hi my var1 value is ${var1}"
         }
       }
     }
   }
 }
+
